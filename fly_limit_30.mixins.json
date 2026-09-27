@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.melissa.flylimit.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["MobMoveMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

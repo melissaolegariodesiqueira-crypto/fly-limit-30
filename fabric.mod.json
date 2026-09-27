@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "fly_limit_30",
+  "version": "${version}",
+  "name": "Fly Limit 30",
+  "description": "Limits upward flight of mobs to 30 blocks above their takeoff ground while allowing normal descent and teleportation.",
+  "authors": ["Melissa"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": ["com.melissa.flylimit.FlyLimit30"] },
+  "mixins": ["fly_limit_30.mixins.json"],
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "1.21.1", "java": ">=21", "fabric-api": "*" }
+}
